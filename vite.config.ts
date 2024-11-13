@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Visualiseur-Excel/', // Remplacez par le nom exact de votre dépôt GitHub
+  base: '', // Important pour les chemins relatifs sur GitHub Pages
 });
